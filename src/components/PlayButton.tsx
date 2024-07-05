@@ -2,7 +2,7 @@ import { MouseEventHandler } from "react";
 import { GrPowerReset } from "react-icons/gr";
 import { BsFillPlayFill } from "react-icons/bs";
 
-interface PlaceProps {
+interface PlayButtonProps {
   handlerRunVisualizer: MouseEventHandler<HTMLButtonElement>;
   isDisabled: boolean;
   isGraphVisualized: boolean;
@@ -12,7 +12,7 @@ export function PlayButton({
   handlerRunVisualizer,
   isDisabled,
   isGraphVisualized,
-}: PlaceProps) {
+}: PlayButtonProps) {
   return (
     <button
       disabled={isDisabled}
