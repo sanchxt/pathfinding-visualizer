@@ -6,7 +6,7 @@ import { MAX_COLS, MAX_ROWS } from "../utils/constants";
 import { usePathfinding } from "../hooks/usePathfinding";
 import { checkIfStartOrEnd, createNewGrid } from "../utils/helpers";
 
-interface RefProp {
+export interface RefProp {
   isVisualizationRunningRef: MutableRefObject<boolean>;
 }
 
